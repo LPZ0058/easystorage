@@ -1,0 +1,44 @@
+{
+    "include": [
+      "./src/**/*",
+    ],
+    "exclude": [
+      "./bin/**/*"
+    ],
+
+    /*
+      compilerOptions 编译器的选项
+    */
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": ["es6", "dom"],
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    // 是否对js文件进行编译，默认是false
+    "allowJs": true,
+      // 是否检查js代码是否符合语法规范，默认是false
+  //    "checkJs": true,
+    // 是否移除注释
+    "removeComments": true,
+    // 不生成编译后的文件
+    "noEmit": false,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noEmitOnError": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": true,
+    // 开启映射
+    "sourceMap":true,
+    "paths":{
+      // "shared/*": ["src/shared/*"],
+      // "core/*": ["src/core/*"],
+      // "types/*": ["src/types/*"],
+    }
+  }
+}
+
