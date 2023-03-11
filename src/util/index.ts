@@ -38,3 +38,4 @@ export function decrypt(data) {
   const decryptedStr = decrypt.toString(CryptoJS.enc.Utf8);
   return decryptedStr.toString();
 }
+

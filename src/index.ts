@@ -199,7 +199,7 @@ const defaultConfig:instanceConfig = {
 declare type changeCallBack = (event:{key:string, newValue, oldValue}) => void
 declare type storageCallBack = (event:{key:string, newValue, oldValue, url:string, storageArea: Storage}) => void
 
-export class EYStorage {
+export default class EYStorage {
   private config: instanceConfig
   private changeCallBackArr:Array<changeCallBack>
   private storageCallBackArr:Array<storageCallBack>

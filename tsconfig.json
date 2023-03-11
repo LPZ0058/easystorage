@@ -3,7 +3,10 @@
       "./src/**/*",
     ],
     "exclude": [
-      "./bin/**/*"
+      "./bin/**/*",
+      "node_modules",
+      "**/*.d.ts",
+      "**/*.spec.ts"
     ],
 
     /*
@@ -32,6 +35,8 @@
     "noImplicitAny": false,
     "noImplicitThis": false,
     "strictNullChecks": true,
+    "declaration": true, // 指定生成类型声明文件
+    "declarationDir": "./types", // 指定类型声明文件的文件夹
     // 开启映射
     "sourceMap":true,
     "paths":{

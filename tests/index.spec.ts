@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import {EYStorage} from '../src/index'
+import EYStorage from '../src/index'
 import { EYStorageTypeOptions, instanceConfig } from '../src/types'
 
 
