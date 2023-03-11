@@ -44,7 +44,7 @@ and
 
 2. 浏览器引入：
 ```html
-  <script src="lib/main.aio.js"></script>
+  <script src="lib/main.umd.js"></script>
   <!-- lib/main.aio.js需要在源码上找 -->
 ```
 
