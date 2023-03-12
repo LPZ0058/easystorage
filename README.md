@@ -53,3 +53,9 @@ and
 **API文档**
 
 待续...
+
+**TODO**
+
+- [ ] 提供类似vuex-persist和vuex集成
+- [ ] 提供存储到cookie
+- [ ] 提供存储到indexdb
